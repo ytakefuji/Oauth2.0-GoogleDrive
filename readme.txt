@@ -1,6 +1,8 @@
 #delete-file function added for PyDrive
 
-oauth2_delete.py for delete a file on Google Drive through oauth2
+oauth2_delete.py for deleting a file on Google Drive through oauth2
+
+You should install pydrive.
 
 You should download your .json file from google developer console and rename it to client_secrets.json.
 
