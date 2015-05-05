@@ -2,6 +2,8 @@
 
 oauth2_delete.py for delete a file on Google Drive through oauth2
 
+You should download your .json file from google developer console and rename it to client_secrets.json.
+
 files.py for a new files.py of PyDrive which should be replaced with
 
 Go to your pydrive folder
