@@ -1,3 +1,15 @@
+In your directory, you should download json file of web application client from google development site:
+https://console.developers.google.com/cloud-resource-manager
+
+You must enable Google Drive API and create Web client (Web Application).
+credentials->OAuth 2.0 client IDs->Web client
+In Authorized redirect URIs, set http://localhost:8080/
+Click "DOWNLOAD JSON" to download json file and rename it to client_secrets.json.
+The following command is equivalent to "ls <Google Drive directory>"
+$ python oauth2_list.py
+
+You can directly use glist.py without PyDrive.
+
 A new delete-file function is added for PyDrive
 oauth2_delete.py is a program to delete a file on Google Drive through oauth2.
 
