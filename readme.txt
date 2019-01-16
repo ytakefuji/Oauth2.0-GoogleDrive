@@ -7,6 +7,8 @@ In Authorized redirect URIs, set http://localhost:8080/
 Click "DOWNLOAD JSON" to download json file and rename it to client_secrets.json.
 The following command is equivalent to "ls <Google Drive directory>"
 $ python oauth2_list.py
+The following command deletes the target file on Google Drive.
+$ python -i oauth2_delete.py
 
 You can directly use glist.py without PyDrive.
 
