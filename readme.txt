@@ -35,3 +35,11 @@ $ python help.py
 
 You can directly use glist.py without PyDrive. glist.py is able to list files on Google Drive.
 gupload.py can upload a file from local to Google Drive without PyDrive.
+gdownload.py can download a file from Google Drive to local.
+
+$ python glist.py
+
+$ python -i gupload.py
+
+$ python -i gdownload.py
+
