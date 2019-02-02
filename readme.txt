@@ -33,13 +33,16 @@ py_compile.compile("files.py")
 $ chmod 755 files.py
 $ python help.py
 
-You can directly use glist.py, gupload.py, gdownload.py without PyDrive. glist.py is able to list files on Google Drive.
+You can directly use glist.py, gupload.py, gdownload.py, gdelete without PyDrive. glist.py is able to list files on Google Drive.
 gupload.py can upload a file from local to Google Drive.
 gdownload.py can download a file from Google Drive to local.
+gdelete.py can delete a file from Google Drive.
 
 $ python glist.py
 
 $ python -i gupload.py
 
 $ python -i gdownload.py
+
+$ python -i gdelete.py
 
