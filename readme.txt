@@ -8,6 +8,7 @@ alias pip3==/home/XXX/miniconda3/bin/pip
 alias python3=/home/XXX/miniconda3/bin/python
 alias conda3=/home/XXX/miniconda3/bin/conda
    XXX is username
+source .profile
 pip3 install -U google-api-python-client
 pip3 install -U oauth2client
 
