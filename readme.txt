@@ -56,18 +56,12 @@ gdownload.py can download a file from Google Drive to local.
 gdelete.py can delete a file from Google Drive.
 
 $ python glist.py
-
 $ python -i gupload.py
-
 $ python -i gdownload.py
-
 $ python -i gdelete.py
 
 $ python3 glist.py
-
 $ python3 gupload.py
-
 $ python3 gdownload.py
-
 $ python3 gdelete.py
 
