@@ -1,3 +1,18 @@
+Python2.7 was tested. 
+
+In order to use Python3.7, run the following commands:
+download a python3.7 miniconda file: https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3*.sh
+in .profile file, add the following aliase:  
+alias pip3==/home/XXX/miniconda3/bin/pip
+alias python3=/home/XXX/miniconda3/bin/python
+alias conda3=/home/XXX/miniconda3/bin/conda
+   XXX is username
+pip3 install -U google-api-python-client
+pip3 install -U oauth2client
+
+-----------------------------------------------
+
 Python programs using PyDrive are able to list files on Google Drive folder (oauth2_list.py), upload file from local to Google Drive(oauth2_upload), download file from Google Drive to local (oauth2_down.py), delete file on Google Drive (oauth2_delete.py).
 You should download json file of web application client from google development site:
 https://console.developers.google.com/cloud-resource-manager
@@ -46,4 +61,12 @@ $ python -i gupload.py
 $ python -i gdownload.py
 
 $ python -i gdelete.py
+
+$ python3 glist.py
+
+$ python3 gupload.py
+
+$ python3 gdownload.py
+
+$ python3 gdelete.py
 
