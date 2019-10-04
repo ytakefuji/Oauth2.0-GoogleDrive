@@ -6,7 +6,7 @@ CLIENT_SECRET = 'client_secrets.json'
 SCOPES = ['https://www.googleapis.com/auth/drive.readonly.metadata']
 
 store = file.Storage('storage.json')
-#creds = None
+#creds = None  use for the first time
 creds = store.get()
 if not creds or creds.invalid:
     flow = client.flow_from_clientsecrets(CLIENT_SECRET, SCOPES)
