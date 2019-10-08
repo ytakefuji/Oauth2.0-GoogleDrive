@@ -32,7 +32,7 @@ def download_file(filename,file_id):
     f.close()
 
 rinput = vars(__builtins__).get('raw_input',input)
-fname=raw_input('enter file name: ')
+fname=rinput('enter file name: ')
 for f in files:
  if f['title'].encode('utf-8')==fname:
   print('downloading...',f['title'])
