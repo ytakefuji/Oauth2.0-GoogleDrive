@@ -4,7 +4,7 @@ This is a repository for updated source programs in the following books:
 3. https://www.kingstone.com.tw/new/basic/2013120498099?kmcode=2013120498099&lid=book_new_flow&actid=book_flow
 
 
-Python2.7 was tested. 
+Python2.7 and pythno3.7 were tested. 
 
 In order to use Python3.7, run the following commands:
 download a python3.7 miniconda file: https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
